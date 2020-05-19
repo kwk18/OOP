@@ -22,8 +22,6 @@ TRectangle::TRectangle(std::istream &is) {
         throw std::logic_error("Wrong coordinates. It is not a Square.");
 
     }
-
-    //std::cout << "TRectangle: Created" << std::endl;
 }
 
 
