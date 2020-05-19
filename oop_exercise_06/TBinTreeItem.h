@@ -6,7 +6,7 @@
 #include <memory>
 
 template<class T>
-class TBinTreeItem { //не нужно все хранить по умолчанию в shptr, убрать наследование в TRectangle как в 5 лабе
+class TBinTreeItem { 
 public:
     TBinTreeItem(const std::shared_ptr<T> &figure);
 
