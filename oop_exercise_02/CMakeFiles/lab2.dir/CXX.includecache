@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/macbook/Desktop/OOP/oop_exercise_02/BitString.h
+string
+-
+iostream
+-
+
+/Users/macbook/Desktop/OOP/oop_exercise_02/main.cpp
+BitString.h
+/Users/macbook/Desktop/OOP/oop_exercise_02/BitString.h
+string
+-
+iostream
+-
+
