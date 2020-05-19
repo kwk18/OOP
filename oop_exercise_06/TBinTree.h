@@ -8,11 +8,11 @@
 #include <memory>
 
 template<class T>
-class TBinTree { 
+class TBinTree {
 public:
     TBinTree();
 
-    void Insert(const std::shared_ptr<T> &figure); //!
+    void Insert(std::shared_ptr<T> &figure);
 
     bool Empty();
 
@@ -28,7 +28,7 @@ public:
 
     TIterator<TBinTreeItem<T>, T> end();
 
-    virtual ~TBinTree(); //check
+    virtual ~TBinTree();
 
 private:
     std::shared_ptr<TBinTreeItem<T>> root;
@@ -42,9 +42,6 @@ private:
     void DeleteSearch(std::shared_ptr<TBinTreeItem<T>> node, size_t elem);
 
     std::shared_ptr<TBinTreeItem<T>> DeleteNode(std::shared_ptr<TBinTreeItem<T>> node);
-
-    template<class T>
-    void Insert(std::shared_ptr<T> &figure);
 };
 
 #endif /* TBINTREE_H */
