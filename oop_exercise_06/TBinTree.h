@@ -8,7 +8,7 @@
 #include <memory>
 
 template<class T>
-class TBinTree { //добавить аллокатор
+class TBinTree { 
 public:
     TBinTree();
 
@@ -31,7 +31,6 @@ public:
     virtual ~TBinTree(); //check
 
 private:
-    //Allocator allocator;
     std::shared_ptr<TBinTreeItem<T>> root;
 
     void InsertSearch(std::shared_ptr<TBinTreeItem<T>> node, std::shared_ptr<T> &figure);
