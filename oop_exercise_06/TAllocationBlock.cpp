@@ -1,6 +1,6 @@
 #include "TAllocationBlock.h"
 
-TAllocationBlock::TAllocationBlock(int32_t size, int32_t count) { 
+TAllocationBlock::TAllocationBlock(int32_t size, int32_t count) { //конструктор класса
     _used_blocks = (char *) malloc(size * count);
 
     for (int32_t i = 0; i < count; ++i) {
@@ -41,6 +41,5 @@ TAllocationBlock::~TAllocationBlock() {
         _free_blocks.DelElement(first);
     }
     free(_used_blocks);
-    //delete _free_blocks;
-    //delete _used_blocks;
+
 }
