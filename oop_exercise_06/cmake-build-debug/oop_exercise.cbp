@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="oop_exercise"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="oop_exercise">
+				<Option output="/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/cmake-build-debug/oop_exercise" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 oop_exercise"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="oop_exercise/fast">
+				<Option output="/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/cmake-build-debug/oop_exercise" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 oop_exercise/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/TAllocationBlock.cpp">
+			<Option target="oop_exercise"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/TAllocationBlock.h">
+			<Option target="oop_exercise"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/TBinTree.cpp">
+			<Option target="oop_exercise"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/TBinTree.h">
+			<Option target="oop_exercise"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/TBinTreeItem.cpp">
+			<Option target="oop_exercise"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/TBinTreeItem.h">
+			<Option target="oop_exercise"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/TList.cpp">
+			<Option target="oop_exercise"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/TList.h">
+			<Option target="oop_exercise"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/TListItem.cpp">
+			<Option target="oop_exercise"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/TListItem.h">
+			<Option target="oop_exercise"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/TRectangle.cpp">
+			<Option target="oop_exercise"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/TRectangle.h">
+			<Option target="oop_exercise"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/TStack.cpp">
+			<Option target="oop_exercise"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/TStack.h">
+			<Option target="oop_exercise"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/TStackItem.cpp">
+			<Option target="oop_exercise"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/TStackItem.h">
+			<Option target="oop_exercise"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/lab6.cpp">
+			<Option target="oop_exercise"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Desktop/МАИ/2/OOP/oop_exercise_06-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
