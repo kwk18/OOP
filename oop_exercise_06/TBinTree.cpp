@@ -24,7 +24,7 @@ void TBinTree<T>::InsertSearch(std::shared_ptr<TBinTreeItem<T>> node, std::share
     if (node == nullptr) {
         std::shared_ptr<TBinTreeItem<T>>
                 newNode(new TBinTreeItem<T>(figure));
-        node = newNode;//node = std::make_shared<TBinTreeItem<T>>(figure);
+        node = newNode;
         node->SetLeft(nullptr);
         node->SetRight(nullptr);
     }
@@ -157,7 +157,6 @@ TIterator<TBinTreeItem<T>, T> TBinTree<T>::end() {
 
 template<class T>
 TBinTree<T>::~TBinTree() {
-    //delete root;
     std::cout << "BinTree: Deleted" << std::endl;
 }
 
