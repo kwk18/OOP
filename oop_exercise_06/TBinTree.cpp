@@ -11,7 +11,7 @@ void TBinTree<T>::Insert(std::shared_ptr<T> &figure) {
     if (root == nullptr) {
         std::shared_ptr<TBinTreeItem<T>>
                 newNode(new TBinTreeItem<T>(figure));
-        root = newNode; 
+        root = newNode;
     } else {
         std::shared_ptr<TBinTreeItem<T>>
                 node = root;
